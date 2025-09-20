@@ -444,7 +444,7 @@ let lastEventId = 0;
 
 function connectRikWebSocket() {
     console.log("🔌 Connecting to SunWin WebSocket...");
-    rikWS = new WebSocket(`wss://websocket.gmwin.io/websocket?token=${TOKEN}`);
+    rikWS = new WebSocket(`wss://websocket.azhkthg1.net/wsbinary?token=${TOKEN}`);
 
     rikWS.on("open", () => {
         console.log("✅ WebSocket connected");
@@ -641,6 +641,7 @@ const start = async () => {
 };
 
 start();
+
 
 
 
